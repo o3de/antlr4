@@ -74,7 +74,7 @@
     #ifdef ANTLR4CPP_STATIC
       #define ANTLR4CPP_PUBLIC
     #else
-      #define ANTLR4CPP_PUBLIC __declspec(dllimport)
+      #define ANTLR4CPP_PUBLIC
     #endif
   #endif
 
